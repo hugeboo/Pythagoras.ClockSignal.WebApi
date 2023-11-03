@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pythagoras.ClockSignal.WebApi", "src\Pythagoras.ClockSignal.WebApi\Pythagoras.ClockSignal.WebApi.csproj", "{9600336E-030E-4ED1-9018-78244815365D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FD315877-BC98-4462-B8F4-E249B6BB0D08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pythagoras.Infrastructure", "..\Pythagoras.Infrastructure\src\Pythagoras.Infrastructure\Pythagoras.Infrastructure.csproj", "{90983884-17BC-4A22-8888-9B4C7F52A82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pythagoras.Infrastructure.Tests", "..\Pythagoras.Infrastructure\tests\Pythagoras.Infrastructure.Tests\Pythagoras.Infrastructure.Tests.csproj", "{702A2979-2647-4AE8-B098-8356B7CB6B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9600336E-030E-4ED1-9018-78244815365D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9600336E-030E-4ED1-9018-78244815365D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9600336E-030E-4ED1-9018-78244815365D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9600336E-030E-4ED1-9018-78244815365D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90983884-17BC-4A22-8888-9B4C7F52A82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90983884-17BC-4A22-8888-9B4C7F52A82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90983884-17BC-4A22-8888-9B4C7F52A82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90983884-17BC-4A22-8888-9B4C7F52A82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702A2979-2647-4AE8-B098-8356B7CB6B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702A2979-2647-4AE8-B098-8356B7CB6B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702A2979-2647-4AE8-B098-8356B7CB6B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702A2979-2647-4AE8-B098-8356B7CB6B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90983884-17BC-4A22-8888-9B4C7F52A82B} = {FD315877-BC98-4462-B8F4-E249B6BB0D08}
+		{702A2979-2647-4AE8-B098-8356B7CB6B12} = {FD315877-BC98-4462-B8F4-E249B6BB0D08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA2FC57-2E36-4390-A26A-A3055378CC75}
+	EndGlobalSection
+EndGlobal
